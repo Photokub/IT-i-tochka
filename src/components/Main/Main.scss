@@ -5,7 +5,8 @@
 // }
 
 .main {
-    max-height: 770px;
+    // max-height: 770px;
+
     //background-color: $backgroundGradient;
     background-blend-mode: overlay;
 
@@ -15,6 +16,7 @@
 .main__wrap {
     max-width: 1140px;
     margin: 0 auto;
+    padding: 214px 20px 60px 20px;
 }
 
 .main__container {
@@ -22,6 +24,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, minmax(min-content, max-content));
     color: $font-color-main;
+    align-items: center;
 }
 
 .main__title {
@@ -68,6 +71,7 @@
 .main__subtitle{
     margin: 0;
     grid-column: 1/2;
+    align-self:flex-end;
 
     font-family: ALS Schlange Sans, Arial, Helvetica, sans-serif;
     font-size: $h3-font-size;
