@@ -2,11 +2,12 @@
 
 .button {
     max-width: 300px;
+    max-height: 58px;
     border: none;
     background: $button-color;
     color: $button-text-color;
     border-radius: 90px;
-    padding: 18px 90px;
+    padding: 14px 90px;
     margin: 10px 0;
     top: 0;
     position: relative;

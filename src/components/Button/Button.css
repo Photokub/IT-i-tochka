@@ -1,10 +1,11 @@
 .button {
   max-width: 300px;
+  max-height: 58px;
   border: none;
   background: linear-gradient(135deg, rgb(247, 151, 30) 0%, rgb(255, 210, 0) 100%);
   color: #303273;
   border-radius: 90px;
-  padding: 18px 90px;
+  padding: 14px 90px;
   margin: 10px 0;
   top: 0;
   position: relative;
