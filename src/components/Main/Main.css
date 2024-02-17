@@ -4,6 +4,7 @@
   grid-template-rows: repeat(5, minmax(min-content, max-content));
   color: #243976;
   align-items: center;
+  padding: 0 0 60px 0;
 }
 
 .main__title {

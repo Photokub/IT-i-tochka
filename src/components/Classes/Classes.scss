@@ -1,0 +1,23 @@
+@import "../../variables/variables.scss";
+
+.classes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+    background-color: rgba(255, 255, 255 .85);
+    border: 1px solid rgba(255, 255, 255 .95);
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+}
+
+.classes__title{
+    margin: 0 0 60px 0;
+    color: $font-color-main;
+    font-size: $h2-font-size;
+    font-family: $font-ALS-Schlange-Sans;
+}
+
+.classes__container{
+    display: grid;
+}
