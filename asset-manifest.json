@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2288730.css",
+    "main.js": "/static/js/main.d8d84ca4.js",
+    "static/js/592.1a3b6ce9.chunk.js": "/static/js/592.1a3b6ce9.chunk.js",
+    "static/media/pic_main.svg": "/static/media/pic_main.4685221a3350b63aaf2d3efbb3db25b7.svg",
+    "static/media/ALSSchlangesans-Bold.woff": "/static/media/ALSSchlangesans-Bold.45c878f9643c72cfce3e.woff",
+    "static/media/ALSSchlangesans-Bold.woff2": "/static/media/ALSSchlangesans-Bold.546cf51a981b6001bd8c.woff2",
+    "static/media/GothamPro-Medium.woff": "/static/media/GothamPro-Medium.3c379e6305b34250be8a.woff",
+    "static/media/GothamPro-Bold.woff": "/static/media/GothamPro-Bold.e8ddda7220a05cf00f1c.woff",
+    "static/media/GothamPro.woff": "/static/media/GothamPro.9e3de47599b8a119a2b3.woff",
+    "static/media/GothamPro-Medium.woff2": "/static/media/GothamPro-Medium.738777ea88f45fff7fcc.woff2",
+    "static/media/GothamPro.woff2": "/static/media/GothamPro.97a23059df8a758600fb.woff2",
+    "static/media/GothamPro-Bold.woff2": "/static/media/GothamPro-Bold.b9c5d1404c9e2ed632e3.woff2",
+    "index.html": "/index.html",
+    "main.a2288730.css.map": "/static/css/main.a2288730.css.map",
+    "main.d8d84ca4.js.map": "/static/js/main.d8d84ca4.js.map",
+    "592.1a3b6ce9.chunk.js.map": "/static/js/592.1a3b6ce9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2288730.css",
+    "static/js/main.d8d84ca4.js"
+  ]
+}
