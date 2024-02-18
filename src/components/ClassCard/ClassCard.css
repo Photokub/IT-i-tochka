@@ -1,0 +1,18 @@
+.classCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.classCard__title {
+  margin: 32px 0 0 0;
+  color: #243976;
+  font-size: 15px;
+  font-family: Gotham Pro, Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.cardClass__image {
+  width: 70px;
+  height: 70px;
+}/*# sourceMappingURL=ClassCard.css.map */

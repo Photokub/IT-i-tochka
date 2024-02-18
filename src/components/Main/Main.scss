@@ -21,7 +21,7 @@
     letter-spacing: normal;
 }
 
-.main__highlight{
+.main__highlight {
     background-image: $font-highlight-color;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -39,7 +39,7 @@
     letter-spacing: normal;
 }
 
-.main__buttonSection{
+.main__buttonSection {
     grid-column: 1/2;
     display: flex;
     flex-direction: column;
@@ -52,10 +52,10 @@
     letter-spacing: normal;
 }
 
-.main__subtitle{
+.main__subtitle {
     margin: 0;
     grid-column: 1/2;
-    align-self:flex-end;
+    align-self: flex-end;
 
     font-family: ALS Schlange Sans, Arial, Helvetica, sans-serif;
     font-size: $h3-font-size;
@@ -65,24 +65,35 @@
     letter-spacing: normal;
 }
 
-.main__image{
+.main__image {
     grid-column: 2/3;
     grid-row: 2/6;
 }
 
 @media screen and (max-width: 984px) {
-    .main{
+    .main {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .main__subtitle{
+    .main__subtitle {
         margin: 20px 0;
     }
 
-    .main__image{
+    .main__image {
         width: 100%;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .main {
+        text-align: center;
+        align-items: center;
+    }
+
+    .main__title {
+        font-size: 45px;
     }
 }

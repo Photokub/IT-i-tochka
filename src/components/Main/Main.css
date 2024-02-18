@@ -77,4 +77,13 @@
     width: 100%;
     height: auto;
   }
+}
+@media screen and (max-width: 568px) {
+  .main {
+    text-align: center;
+    align-items: center;
+  }
+  .main__title {
+    font-size: 45px;
+  }
 }/*# sourceMappingURL=Main.css.map */
