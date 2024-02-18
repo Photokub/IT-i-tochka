@@ -1,4 +1,8 @@
 .classes {
+  padding: 0 0 60px 0;
+}
+
+.classes__wrap {
   display: flex;
   flex-direction: column;
   align-items: center;

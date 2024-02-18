@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Main from '../Main/Main';
 import Classes from '../Classes/Classes';
+import Location from "../Location/Location"
 import ClassesList from '../../data/ClassesList.json'
 
 type IClassCard = {
@@ -25,6 +26,7 @@ function App() {
       <Classes
         ClassesListArray={classes}
       />
+      <Location />
     </div>
   );
 }

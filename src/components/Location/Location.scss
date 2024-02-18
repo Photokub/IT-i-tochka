@@ -1,0 +1,63 @@
+@import "../../variables/variables.scss";
+
+.location {
+    padding: 0 0 60px 0;
+}
+
+.location__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+    background-color: rgba(255, 255, 255, .85);
+    border: 1px solid rgba(255, 255, 255, .95);
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+}
+
+.location__title {
+    margin: 0 0 60px 0;
+    color: $font-color-main;
+    font-size: $h2-font-size;
+    font-family: $font-ALS-Schlange-Sans;
+    text-align: center;
+}
+
+.location__contactsList {
+    margin: 40px 0 0 0;
+    padding: 0;
+    color: $font-color-main;
+    list-style-type: none;
+}
+
+.location__contactsListItem{
+    margin: 0 0 40px 0;
+}
+
+.location__contactsListItem:last-child{
+    margin: 0;
+}
+
+.location__contactsTitle {
+    margin: 0;
+    color: $font-color-main;
+    font-size: $h6-font-size;
+    font-weight: 600;
+}
+
+.location__paragraph {
+    margin: 10px 0 0 0;
+
+    font-family: Gotham Pro, Arial, Helvetica, sans-serif;
+    font-size: $paragraph-font-size;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.location__icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 8px 0 0;
+}
