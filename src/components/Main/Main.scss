@@ -93,6 +93,12 @@
 }
 
 @media screen and (max-width: 568px) {
+
+    #highlightedHeader{
+        grid-row: 2/3;
+        margin: 0 0 25px 0;
+    }
+
     .main {
         text-align: center;
         align-items: center;
