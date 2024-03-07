@@ -8,7 +8,8 @@ interface MainPtopTypes { }
 const Main: React.FC<MainPtopTypes> = ({ }) => {
     return (
         <section className="main">
-                    <h1 className="main__title">Программируй правильно с <span className="main__title main__highlight">«IT и точка»</span></h1>
+                    <h1 className="main__title">Программируй правильно с</h1>
+                    <h1 className="main__title" id="highlightedHeader"><span className="main__title main__highlight">«IT и точка»</span></h1>
                     <p className="main__paragraph" id="firstMainRow">Обучаем детей от 7 до 17 лет по методикам разработанными выпускниками и преподавателями из IT сферы.</p>
                     <label htmlFor="" className="main__buttonSection">
                         Запишись на бесплатное пробное занятие
