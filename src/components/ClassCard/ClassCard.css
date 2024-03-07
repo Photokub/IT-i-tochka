@@ -5,7 +5,7 @@
 }
 
 .classCard__title {
-  margin: 32px 0 0 0;
+  margin: 12px 0 0 0;
   color: #243976;
   font-size: 15px;
   font-family: Gotham Pro, Arial, Helvetica, sans-serif;
@@ -13,6 +13,6 @@
 }
 
 .cardClass__image {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
 }/*# sourceMappingURL=ClassCard.css.map */

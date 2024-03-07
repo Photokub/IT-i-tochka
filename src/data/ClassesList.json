@@ -3,42 +3,42 @@
         {
             "id": 1,
             "name": "Программирование",
-            "image": "/classIcons/class-icon.svg"
+            "image": "/classIcons/programming-icon.svg"
         },
         {
             "id": 2,
             "name": "Создание сайтов",
-            "image": "/classIcons/class-icon.svg"
+            "image": "/classIcons/sitemaking-icon.svg"
         },
         {
             "id": 3,
             "name": "Создание приложений",
-            "image": "/classIcons/class-icon.svg"
+            "image": "/classIcons/appmaking-icon.svg"
         },
         {
             "id": 4,
             "name": "Создание 3D-игр",
-            "image": "/classIcons/class-icon.svg"
+            "image": "/classIcons/3dgamesmaking-icon.svg"
         },
         {
             "id": 5,
             "name": "3D-моделирование",
-            "image": "/classIcons/class-icon.svg"
+            "image": "/classIcons/3dmodeling-icon.svg"
         },
         {
             "id": 6,
             "name": "Javascript, Python, PHP+SQL",
-            "image": "/classIcons/class-icon.svg"
+            "image": "/classIcons/JSPHPSQL-icon.svg"
         },
         {
             "id": 7,
             "name": "GIF-анимация",
-            "image": "/classIcons/class-icon.svg"
+            "image": "/classIcons/gifanim-icon.svg"
         },
         {
             "id": 8,
             "name": "Олимпиаде программирование",
-            "image": "/classIcons/class-icon.svg"
+            "image": "/classIcons/olimpic-icon.svg"
         }
     ]
 }
