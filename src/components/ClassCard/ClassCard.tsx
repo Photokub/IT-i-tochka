@@ -14,7 +14,7 @@ const image = imageSrc
 
     return (
         <div className="classCard">
-            <img className="cardClass__image" src={imageSrc} alt={alt} />
+            <img className="cardClass__image" src={process.env.PUBLIC_URL + imageSrc} alt={alt} />
             <h5 className="classCard__title">{title}</h5>
         </div>
     )

@@ -19,6 +19,7 @@ interface IClassesParsed  {
 function App() {
 
   const classes = ClassesList.classes
+  console.log(classes)
 
   return (
     <div className="app">
