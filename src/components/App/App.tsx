@@ -5,6 +5,7 @@ import Main from '../Main/Main';
 import Classes from '../Classes/Classes';
 import Location from "../Location/Location"
 import ClassesList from '../../data/ClassesList.json'
+import Header from '../Header/Header';
 
 type IClassCard = {
   id: number,
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <div className="app">
+      <Header />
       <Main />
       <Classes
         ClassesListArray={classes}
