@@ -1,0 +1,30 @@
+@import "../../variables/variables.scss";
+
+.logo {
+    max-width: 258px;
+    display: flex;
+    flex-direction: row;
+
+    .logo__link {
+        cursor: pointer;
+    }
+
+    .logo__image {
+        width: 63px;
+        height: 63px;
+        margin: 0 17px 0 0;
+    }
+
+    .logo__title {
+        margin: 0;
+        font-family: $font-ALS-Schlange-Sans;
+        font-size: 21px;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 22px;
+        letter-spacing: normal;
+        background-image: $font-highlight-color;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

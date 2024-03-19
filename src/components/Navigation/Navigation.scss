@@ -1,0 +1,41 @@
+@import "../../variables/variables.scss";
+
+.nav {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    .nav__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 15px 0;
+        padding: 0;
+
+        font-family: $font-Gotham-Pro;
+        font-size: 14px;
+        font-weight: 500;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: $font-color-main;
+
+        .nav__listItem {
+            list-style-type: none;
+            margin: 0 30px 0 0;
+
+            .nav__link {
+                cursor: pointer;
+            }
+
+            .nav__link:hover {
+                background-image: $font-highlight-color;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+    }
+}

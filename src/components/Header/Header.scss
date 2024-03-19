@@ -21,30 +21,6 @@
         justify-content: space-between;
         border-bottom: 1px solid #789CF1;
 
-        .header__logo-container {
-            max-width: 258px;
-            display: flex;
-            flex-direction: row;
-
-            .header__logo {
-                width: 63px;
-                height: 63px;
-                margin: 0 17px 0 0;
-            }
-
-            .header__logo-title {
-                margin: 0;
-                font-family: $font-ALS-Schlange-Sans;
-                font-size: 21px;
-                font-weight: 700;
-                font-style: normal;
-                line-height: 22px;
-                letter-spacing: normal;
-                background-image: $font-highlight-color;
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-            }
-        }
 
         .header__contacts-container {
             align-items: center;
@@ -65,35 +41,35 @@
         }
     }
 
-    .header__nav {
-        width: 100%;
-        max-width: 1140px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
+    // .header__nav {
+    //     width: 100%;
+    //     max-width: 1140px;
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: flex-start;
 
-        .header__nav-menu {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin: 15px 0;
-            padding: 0;
+    //     .header__nav-menu {
+    //         display: flex;
+    //         flex-direction: row;
+    //         justify-content: space-between;
+    //         margin: 15px 0;
+    //         padding: 0;
 
-            font-family: $font-Gotham-Pro;
-            font-size: 14px;
-            font-weight: 500;
-            font-style: normal;
-            line-height: normal;
-            letter-spacing: normal;
-            color: $font-color-main;
+    //         font-family: $font-Gotham-Pro;
+    //         font-size: 14px;
+    //         font-weight: 500;
+    //         font-style: normal;
+    //         line-height: normal;
+    //         letter-spacing: normal;
+    //         color: $font-color-main;
 
-            .nav-menu-listItem {
-                list-style-type: none;
-                margin: 0 30px 0 0;
-            }
+    //         .nav-menu-listItem {
+    //             list-style-type: none;
+    //             margin: 0 30px 0 0;
+    //         }
 
-        }
-    }
+    //     }
+    // }
 }
 
 .header_sticky {
