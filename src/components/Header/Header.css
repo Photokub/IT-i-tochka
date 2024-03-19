@@ -20,28 +20,6 @@
   justify-content: space-between;
   border-bottom: 1px solid #789CF1;
 }
-.header .header__contacts .header__logo-container {
-  max-width: 258px;
-  display: flex;
-  flex-direction: row;
-}
-.header .header__contacts .header__logo-container .header__logo {
-  width: 63px;
-  height: 63px;
-  margin: 0 17px 0 0;
-}
-.header .header__contacts .header__logo-container .header__logo-title {
-  margin: 0;
-  font-family: ALS Schlange Sans, Arial, Helvetica, sans-serif;
-  font-size: 21px;
-  font-weight: 700;
-  font-style: normal;
-  line-height: 22px;
-  letter-spacing: normal;
-  background-image: linear-gradient(135deg, rgb(255, 65, 108) 0%, rgb(255, 75, 43) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 .header .header__contacts .header__contacts-container {
   align-items: center;
   display: flex;
@@ -58,31 +36,6 @@
   letter-spacing: normal;
   color: #243976;
 }
-.header .header__nav {
-  width: 100%;
-  max-width: 1140px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.header .header__nav .header__nav-menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 15px 0;
-  padding: 0;
-  font-family: Gotham Pro, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #243976;
-}
-.header .header__nav .header__nav-menu .nav-menu-listItem {
-  list-style-type: none;
-  margin: 0 30px 0 0;
-}
 
 .header_sticky {
   position: fixed;
@@ -96,4 +49,10 @@
   background-image: linear-gradient(135deg, rgb(255, 65, 108) 0%, rgb(255, 75, 43) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 984px) {
+  .header {
+    align-items: flex-end;
+  }
 }/*# sourceMappingURL=Header.css.map */

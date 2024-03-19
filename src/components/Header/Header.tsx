@@ -3,15 +3,20 @@ import './Header.css'
 import Button from "../Button/Button";
 import Logo from "../Logo/Logo";
 import Navigation from "../Navigation/Navigation";
+import BurgerMenu from "../BurgerMenu/BurgerMenu";
 
 interface HeaderPropTypes {
-
+    windowSize?: {
+        innerWidth?: number,
+    },
 }
 
-const Header: React.FC<HeaderPropTypes> = ({ }) => {
+const Header: React.FC<HeaderPropTypes> = ({
+    windowSize
+}) => {
 
-    return (
-        <header className="header">
+    const desktopMenu =
+        <>
             <div className="header__contacts">
                 <Logo />
                 <div className="header__contacts-container">
@@ -19,7 +24,18 @@ const Header: React.FC<HeaderPropTypes> = ({ }) => {
                     <Button />
                 </div>
             </div>
-            <Navigation/>
+            <Navigation />
+        </>
+
+
+    return (
+        <header className="header">
+            {windowSize!.innerWidth! <= 984 ?
+                <BurgerMenu
+                    windowSize={windowSize}
+                />
+                : desktopMenu
+            }
         </header>
     )
 }

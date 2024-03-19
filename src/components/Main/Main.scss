@@ -11,7 +11,7 @@
     grid-template-rows: repeat(5, minmax(min-content, max-content));
     color: $font-color-main;
     align-items: center;
-    padding: 0 0 60px 0;
+    padding: 155px 0 60px 0;
 }
 
 .main__title {
@@ -80,6 +80,8 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        padding: 65px 0 60px 0;
+
     }
 
     .main__subtitle {

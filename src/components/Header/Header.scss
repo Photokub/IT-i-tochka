@@ -85,3 +85,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@media screen and (max-width: 984px){
+    .header{
+        align-items: flex-end;
+    }
+}
