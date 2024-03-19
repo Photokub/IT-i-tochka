@@ -19,18 +19,18 @@
         flex-direction: row;
         justify-content: space-between;
         border-bottom: 1px solid #789CF1;
-    
+
         .header__logo-container {
             max-width: 258px;
             display: flex;
             flex-direction: row;
-    
+
             .header__logo {
                 width: 63px;
                 height: 63px;
                 margin: 0 17px 0 0;
             }
-    
+
             .header__logo-title {
                 margin: 0;
                 font-family: $font-ALS-Schlange-Sans;
@@ -44,13 +44,13 @@
                 -webkit-text-fill-color: transparent;
             }
         }
-    
+
         .header__contacts-container {
             align-items: center;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-    
+
             .header__contacts-title {
                 margin: 0 22px 0 0;
                 font-family: $font-Gotham-Pro;
@@ -90,13 +90,21 @@
                 list-style-type: none;
                 margin: 0 30px 0 0;
             }
+
         }
     }
 }
 
-.header_sticky{
+.header_sticky {
     position: fixed;
-    // left: 0;
-    // top: 0;
 }
 
+.header__nav-link {
+    cursor: pointer;
+}
+
+.header__nav-link:hover {
+    background-image: $font-highlight-color;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

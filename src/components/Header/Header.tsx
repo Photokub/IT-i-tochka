@@ -10,7 +10,8 @@ interface HeaderPropTypes {
 
 const Header: React.FC<HeaderPropTypes> = ({ }) => {
 
-    const scrollToTop: any = () => {
+    
+    const scrollToTop: any = () => {      //функция прокрутки наверх
         scroll.scrollToTop();
     };
 
@@ -18,7 +19,15 @@ const Header: React.FC<HeaderPropTypes> = ({ }) => {
         <header className="header">
             <div className="header__contacts">
                 <div className="header__logo-container">
-                    <img src={logo} alt="логотип IT и точка" className="header__logo" />
+                    <Link
+                        className="header__nav-link"
+                        to="main"
+                        spy={true}
+                        smooth={true}
+                        offset={-155}
+                    >
+                        <img src={logo} alt="логотип IT и точка" className="header__logo" />
+                    </Link>
                     <p className="header__logo-title">ПРОГРАММИРУЕМ АНИМИРУЕМ ТЕСТИРУЕМ</p>
                 </div>
                 <div className="header__contacts-container">
@@ -33,7 +42,7 @@ const Header: React.FC<HeaderPropTypes> = ({ }) => {
                         to="study"
                         spy={true}
                         smooth={true}
-                        onClick={scrollToTop}
+                        offset={-155}
                     >
                         <li className="nav-menu-listItem">Чему мы обучаем</li>
                     </Link>
@@ -42,7 +51,7 @@ const Header: React.FC<HeaderPropTypes> = ({ }) => {
                         to="modules"
                         spy={true}
                         smooth={true}
-                        onClick={scrollToTop}
+                        offset={-155}
                     >
                         <li className="nav-menu-listItem">Модули</li>
                     </Link>
@@ -51,7 +60,7 @@ const Header: React.FC<HeaderPropTypes> = ({ }) => {
                         to="classrooms"
                         spy={true}
                         smooth={true}
-                        onClick={scrollToTop}
+                        offset={-155}
                     >
                         <li className="nav-menu-listItem">Наши классы</li>
                     </Link>
@@ -60,16 +69,16 @@ const Header: React.FC<HeaderPropTypes> = ({ }) => {
                         to="reviews"
                         spy={true}
                         smooth={true}
-                        onClick={scrollToTop}
+                        offset={-155}
                     >
                         <li className="nav-menu-listItem">Отзывы</li>
                     </Link>
                     <Link
                         className="header__nav-link"
-                        to="contacts"
+                        to="location"
                         spy={true}
                         smooth={true}
-                        onClick={scrollToTop}
+                        offset={-155}
                     >
                         <li className="nav-menu-listItem">Как нас найти</li>
                     </Link>

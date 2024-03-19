@@ -11,7 +11,7 @@ interface ClassesPropTypes {
 const Classes: React.FC<ClassesPropTypes> = ({ ClassesListArray }) => {
 
     return (
-        <section className="classes">
+        <section className="classes" id="study">
             <div className="classes__wrap">
                 <h2 className="classes__title">Чему мы обучаем:</h2>
                 <div className="classes__container">

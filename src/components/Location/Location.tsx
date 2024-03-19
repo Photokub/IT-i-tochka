@@ -6,7 +6,7 @@ interface LocationPropTypes { }
 
 const Location: React.FC = ({ }) => {
     return (
-        <section className="location">
+        <section className="location" id="location">
             <div className="location__wrap">
                 <h2 className="location__title">Как нас найти:</h2>
                 <div className="location__container">
