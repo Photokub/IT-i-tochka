@@ -1,5 +1,6 @@
 .header {
   width: 100%;
+  position: absolute;
   align-items: center;
   display: flex;
   flex-direction: column;
