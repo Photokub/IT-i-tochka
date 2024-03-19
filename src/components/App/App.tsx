@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Main from '../Main/Main';
@@ -19,18 +19,41 @@ interface IClassesParsed  {
 
 function App() {
 
+  const [headerElement, setHeaderElement] = useState<any>({})
   const classes = ClassesList.classes
   console.log(classes)
 
+    //логика Header START//
+    useEffect(() => {
+      const header = document.querySelector('.header') as HTMLElement;
+      setHeaderElement(header)
+    }, [])
+  
+    const headerTop = headerElement.offsetTop
+  
+    function headerTopFix() {
+      if (window.scrollY >= headerTop) {
+        headerElement.classList.add("header_sticky");
+      } else {
+        headerElement.classList.remove("header_sticky");
+      }
+    }
+  
+    window.onscroll = function () { headerTopFix() };
+  
+    //логика Header END//
+
   return (
-    <div className="app">
+    <>
       <Header />
+    <div className="app">
       <Main />
       <Classes
         ClassesListArray={classes}
       />
       <Location />
     </div>
+    </>
   );
 }
 
