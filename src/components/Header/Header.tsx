@@ -31,9 +31,12 @@ const Header: React.FC<HeaderPropTypes> = ({
     return (
         <header className="header">
             {windowSize!.innerWidth! <= 984 ?
-                <BurgerMenu
-                    windowSize={windowSize}
-                />
+                <>
+                    <Logo />
+                    <BurgerMenu
+                        windowSize={windowSize}
+                    />
+                </>
                 : desktopMenu
             }
         </header>

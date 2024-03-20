@@ -60,7 +60,11 @@ const BurgerMenu: React.FC<BurgerMunuPropTypes> = ({
                 <span className='burger__container__stripe'></span>
                 <span className='burger__container__stripe'></span>
                 <span className='burger__container__stripe'></span>
-                <ul className='burger-menu-list'>
+                <div className='burger-menu-list'>
+                    <Logo/>
+                    <Navigation />
+                </div>
+                {/* <ul className='burger-menu-list'>
                     <li className='burger-menu-list__string'>
                         <Logo />
                     </li>
@@ -125,7 +129,7 @@ const BurgerMenu: React.FC<BurgerMunuPropTypes> = ({
                     <li className='burger-menu-list__string'>
                         <Button />
                     </li>
-                </ul>
+                </ul> */}
                 <span className='burger__substrate' />
             </div>
         </nav>

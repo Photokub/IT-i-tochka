@@ -30,7 +30,7 @@
   height: 3px;
   margin-bottom: 5px;
   position: relative;
-  background: #3390EC;
+  background: #243976;
   z-index: 2;
   transform-origin: 4px 0;
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
@@ -70,7 +70,7 @@
   width: 520px;
   height: calc(100vh + 100px);
   margin: -100px 0 0 0;
-  padding: 230px 50px 50px 50px;
+  padding: 180px 50px 50px 50px;
   right: 0;
   overflow: hidden;
   visibility: hidden;
@@ -103,7 +103,7 @@
 .burger-menu__list-navlink {
   margin: 0;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 32px;
   color: #000;
   text-align: center;
   font-variant-numeric: lining-nums proportional-nums;

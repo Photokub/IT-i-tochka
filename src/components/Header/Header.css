@@ -53,6 +53,9 @@
 
 @media screen and (max-width: 984px) {
   .header {
-    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 15px 20px 15px 20px;
+    background-color: none;
   }
 }/*# sourceMappingURL=Header.css.map */
