@@ -10,19 +10,34 @@ interface HeaderPropTypes {
     windowSize?: {
         innerWidth?: number,
     },
+    isSubscribed: boolean,
+    handleChangeBurger: any,
+    handleCloseMenu: any;
+    isHeaderPearent: boolean,
 }
 
 const Header: React.FC<HeaderPropTypes> = ({
-    windowSize
+    windowSize,
+    isSubscribed,
+    handleCloseMenu,
+    handleChangeBurger,
+    isHeaderPearent
 }) => {
 
     const desktopMenu =
         <>
             <div className="header__contacts">
-                <Logo />
+                <Logo
+                    handleCloseMenu={handleCloseMenu}
+                    isHeaderPearent={isHeaderPearent}
+                />
                 <ContactsBar />
             </div>
-            <Navigation />
+            <Navigation
+                isSubscribed={isSubscribed}
+                handleCloseMenu={handleCloseMenu}
+                windowSize={windowSize}
+            />
         </>
 
 
@@ -30,9 +45,16 @@ const Header: React.FC<HeaderPropTypes> = ({
         <header className="header">
             {windowSize!.innerWidth! <= 984 ?
                 <>
-                    <Logo />
+                    <Logo
+                        handleCloseMenu={handleCloseMenu}
+                        isHeaderPearent={isHeaderPearent}
+                    />
                     <BurgerMenu
                         windowSize={windowSize}
+                        isSubscribed={isSubscribed}
+                        handleCloseMenu={handleCloseMenu}
+                        handleChangeBurger={handleChangeBurger}
+                        isHeaderPearent={isHeaderPearent}
                     />
                 </>
                 : desktopMenu

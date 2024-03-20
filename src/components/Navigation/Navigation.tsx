@@ -4,15 +4,20 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 
 interface NavigationPropTypes {
-
+    isSubscribed: boolean,
+    handleCloseMenu: any,
+    windowSize: any,
 }
 
-const Navigation: React.FC<NavigationPropTypes> = ({ }) => {
+const Navigation: React.FC<NavigationPropTypes> = ({ 
+    isSubscribed,
+    handleCloseMenu,
+    windowSize,
+}) => {
 
     const scrollToTop: any = () => {      //функция прокрутки наверх
         scroll.scrollToTop();
     };
-
     
     return (
         <nav className="nav">
@@ -25,6 +30,7 @@ const Navigation: React.FC<NavigationPropTypes> = ({ }) => {
                         spy={true}
                         smooth={true}
                         offset={-155}
+                        onClick={handleCloseMenu}
                     >Чему мы обучаем</Link>
                 </li>
                 <li className="nav__listItem">
@@ -34,6 +40,7 @@ const Navigation: React.FC<NavigationPropTypes> = ({ }) => {
                         spy={true}
                         smooth={true}
                         offset={-155}
+                        onClick={handleCloseMenu}
                     >Модули
                     </Link>
                 </li>
@@ -46,6 +53,7 @@ const Navigation: React.FC<NavigationPropTypes> = ({ }) => {
                         spy={true}
                         smooth={true}
                         offset={-155}
+                        onClick={handleCloseMenu}
                     >Наши классы
                     </Link>
                 </li>
@@ -58,6 +66,7 @@ const Navigation: React.FC<NavigationPropTypes> = ({ }) => {
                         spy={true}
                         smooth={true}
                         offset={-155}
+                        onClick={handleCloseMenu}
                     >Отзывы
                     </Link></li>
 
@@ -69,6 +78,7 @@ const Navigation: React.FC<NavigationPropTypes> = ({ }) => {
                         spy={true}
                         smooth={true}
                         offset={-155}
+                        onClick={handleCloseMenu}
                     >Как нас найти
                     </Link>
                 </li>
