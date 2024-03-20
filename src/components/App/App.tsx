@@ -42,9 +42,9 @@ function App() {
 
   const closeMenu = () => {
     if (burger.checked) {
-      page.style.overflowY = 'hidden'
-    } else {
       page.style.overflowY = 'scroll'
+    } else {
+      page.style.overflowY = 'hidden'
     }
     setIsSubscribed(current => !current);
   }
