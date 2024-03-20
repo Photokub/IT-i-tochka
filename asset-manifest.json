@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/IT-i-tochka/static/css/main.948d5b99.css",
-    "main.js": "/IT-i-tochka/static/js/main.7452dbee.js",
+    "main.css": "/IT-i-tochka/static/css/main.79888a7b.css",
+    "main.js": "/IT-i-tochka/static/js/main.ceade725.js",
     "static/js/592.1a3b6ce9.chunk.js": "/IT-i-tochka/static/js/592.1a3b6ce9.chunk.js",
     "static/media/pic_main.svg": "/IT-i-tochka/static/media/pic_main.548d3fd3f57d2296c57a2bf588b8f47a.svg",
     "static/media/ALSSchlangesans-Bold.woff": "/IT-i-tochka/static/media/ALSSchlangesans-Bold.45c878f9643c72cfce3e.woff",
@@ -14,12 +14,12 @@
     "static/media/GothamPro.woff2": "/IT-i-tochka/static/media/GothamPro.97a23059df8a758600fb.woff2",
     "static/media/GothamPro-Bold.woff2": "/IT-i-tochka/static/media/GothamPro-Bold.b9c5d1404c9e2ed632e3.woff2",
     "index.html": "/IT-i-tochka/index.html",
-    "main.948d5b99.css.map": "/IT-i-tochka/static/css/main.948d5b99.css.map",
-    "main.7452dbee.js.map": "/IT-i-tochka/static/js/main.7452dbee.js.map",
+    "main.79888a7b.css.map": "/IT-i-tochka/static/css/main.79888a7b.css.map",
+    "main.ceade725.js.map": "/IT-i-tochka/static/js/main.ceade725.js.map",
     "592.1a3b6ce9.chunk.js.map": "/IT-i-tochka/static/js/592.1a3b6ce9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.948d5b99.css",
-    "static/js/main.7452dbee.js"
+    "static/css/main.79888a7b.css",
+    "static/js/main.ceade725.js"
   ]
 }
