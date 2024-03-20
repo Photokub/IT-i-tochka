@@ -1,0 +1,26 @@
+@import "../../variables/variables.scss";
+
+.contacts-bar {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .contacts-bar__title {
+        margin: 0 22px 0 0;
+        font-family: $font-Gotham-Pro;
+        font-size: 21px;
+        font-weight: 700;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: $font-color-main;
+    }
+}
+
+@media screen and (max-width: 984px){
+    .contacts-bar{
+        flex-direction: column;
+        gap: 25px;
+    }
+}

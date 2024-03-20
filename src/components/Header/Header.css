@@ -20,22 +20,6 @@
   justify-content: space-between;
   border-bottom: 1px solid #789CF1;
 }
-.header .header__contacts .header__contacts-container {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.header .header__contacts .header__contacts-container .header__contacts-title {
-  margin: 0 22px 0 0;
-  font-family: Gotham Pro, Arial, Helvetica, sans-serif;
-  font-size: 21px;
-  font-weight: 700;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #243976;
-}
 
 .header_sticky {
   position: fixed;

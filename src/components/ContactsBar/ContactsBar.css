@@ -1,1 +1,23 @@
-/*# sourceMappingURL=ContactsBar.css.map */
+.contacts-bar {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contacts-bar .contacts-bar__title {
+  margin: 0 22px 0 0;
+  font-family: Gotham Pro, Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #243976;
+}
+
+@media screen and (max-width: 984px) {
+  .contacts-bar {
+    flex-direction: column;
+    gap: 25px;
+  }
+}/*# sourceMappingURL=ContactsBar.css.map */

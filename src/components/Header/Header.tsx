@@ -4,6 +4,7 @@ import Button from "../Button/Button";
 import Logo from "../Logo/Logo";
 import Navigation from "../Navigation/Navigation";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
+import ContactsBar from "../ContactsBar/ContactsBar";
 
 interface HeaderPropTypes {
     windowSize?: {
@@ -19,10 +20,7 @@ const Header: React.FC<HeaderPropTypes> = ({
         <>
             <div className="header__contacts">
                 <Logo />
-                <div className="header__contacts-container">
-                    <p className="header__contacts-title">+7 (963) 773-97-74</p>
-                    <Button />
-                </div>
+                <ContactsBar />
             </div>
             <Navigation />
         </>
