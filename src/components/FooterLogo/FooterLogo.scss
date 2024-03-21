@@ -1,0 +1,33 @@
+@import "../../variables/variables.scss";
+
+.footer-logo{
+    max-width: 220px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.footer-logo__image{
+    height: 30%;
+    margin: 0 6px 0 0;
+}
+
+.footer-logo__title{
+    font-family: $font-ALS-Schlange-Sans;
+    font-size: $h6-font-size;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $font-color-main
+}
+
+@media screen and (max-width: 984px){
+    .footer-logo{
+        max-width: 180px;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+    }
+
+}

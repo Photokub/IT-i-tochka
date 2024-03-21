@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom"
 import "./Footer.css"
 import logo from "../../images/logo-IT-i-tochka.svg"
 import { FaTelegram, FaVk, FaMapMarkerAlt, FaPhone } from "react-icons/fa"
+import FooterLogo from "../FooterLogo/FooterLogo";
 
 interface FooterPropTypes {
 
@@ -12,7 +12,7 @@ const Footer: React.FC<FooterPropTypes> = ({ }) => {
     return (
         <footer className="footer">
             <div className="footer__container">
-                <img src={logo} alt="логотип" className="footer__logo" />
+                <FooterLogo />
                 <div className="footer__classes-block">
                     <h6 className="footer__title">Классы</h6>
                     <ul className="footer__contacts-list">

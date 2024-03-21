@@ -5,12 +5,8 @@
 
 .footer__container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
   border-bottom: 1px solid #dddddd;
-}
-
-.footer__logo {
-  height: 50%;
 }
 
 .footer__title {
