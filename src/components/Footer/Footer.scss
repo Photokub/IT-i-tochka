@@ -1,0 +1,65 @@
+@import "../../variables/variables.scss";
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    border-bottom: 1px solid #dddddd;
+}
+
+.footer__logo {
+    height: 50%;
+}
+
+.footer__title {
+    margin: 0 0 15px 0;
+    font-family: $font-ALS-Schlange-Sans;
+    font-size: $h6-font-size;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $font-color-main
+}
+
+.footer__contacts-list {
+    margin: 16px 0 32px 0;
+    padding: 0;
+    color: $font-color-main
+}
+
+.footer__contacts-listItem {
+    margin: 0 0 10px 0;
+    list-style-type: none;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: $font-color-main
+}
+
+.footer__contacts-icon,
+.footer__social-icon {
+    margin: 0 5px 0 0;
+    color: $button-text-color;
+}
+
+
+.footer__develop {
+    margin: 0 auto;
+}
+
+
+.footer__develop-paragraph {
+    margin: 0;
+    padding: 24px 0 48px 0;
+    color: #9299AF;
+}
+
+.footer__develop-link {
+    color: #9299AF;
+}

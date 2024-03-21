@@ -6,6 +6,7 @@ import Classes from '../Classes/Classes';
 import Location from "../Location/Location"
 import ClassesList from '../../data/ClassesList.json'
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 type IClassCard = {
   id: number,
@@ -112,6 +113,7 @@ function App() {
           ClassesListArray={classes}
         />
         <Location />
+        <Footer />
       </div>
     </>
   );
